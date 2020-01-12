@@ -30,9 +30,9 @@ namespace :db do
     Pry.start
   end
 end
-
-namespace :environment do
-  task :environment do
-    require_relative './config/environment'
-  end
+# 
+# namespace :environment do
+#   task :environment do
+#     require_relative './config/environment'
+#   end
 end
